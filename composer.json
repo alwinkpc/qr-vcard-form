@@ -1,0 +1,20 @@
+{
+    "name": "alwinkpc/qr-vcard-form",
+    "description": "Simple QR generation of vcards on top of google's chart",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Alwin Kesler Pacheco",
+            "email": "kesler.alwin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
